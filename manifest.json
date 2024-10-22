@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Python Library Cheat Sheet",
+    "version": "1.0",
+    "description": "Cheat sheets for NumPy, Pandas, Matplotlib, and Seaborn.",
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": "python128.png"
+    },
+    "permissions": [],
+    "icons": {
+    "128": "python128.png"
+    },
+    "background": {
+        "service_worker": "background.js"
+    }
+}
